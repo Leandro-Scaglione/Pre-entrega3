@@ -5,6 +5,10 @@
 @import "../sass/base/reset";
 @import "../sass/base/main";
 
+// VARIABLES 
+
+@import "../sass/base/variables";
+
 // layout
 
 @import "../sass/layout/header";
@@ -18,3 +22,5 @@
 // Media
 
 @import "../sass/layout/media768";
+
+

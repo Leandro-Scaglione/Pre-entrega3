@@ -1,4 +1,7 @@
 // MAIN
+
+@import "../base/variables";
+
 main {
     margin-top: 35px;
 
@@ -23,7 +26,7 @@ main {
         background-color: black;
         padding: 4px;
         border: 1px solid rgba(85, 110, 247, 0.89);
-        border-radius: 15px;
+        border-radius: $borde-redonde;
         width: 230px;
         text-align: center;
         margin: auto;
@@ -35,7 +38,7 @@ main {
         padding: 10px;
         color: aliceblue;
         background-color: rgba(39, 39, 39, 0.877);
-        border-radius: 15px;
+        border-radius: $borde-redonde;
         text-align: center;
         font-family: sedan;
     }
