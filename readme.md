@@ -1,0 +1,1 @@
+Este es el Trabajo Practico Pre-entregable Nº 3 de Leandro Scaglione, para el curso de desarrollo web, dictado por Coderhouse, semana 8 referente a migrar los estilos css a scss.
