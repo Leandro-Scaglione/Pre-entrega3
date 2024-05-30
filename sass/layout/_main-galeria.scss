@@ -15,6 +15,7 @@
     section {
         div {
             .rounded-4 {
+                @extend .conocenos-images;
                 max-width: -webkit-fill-available;
             }
         }

@@ -1,6 +1,6 @@
 // MAIN
 
-@import "../base/variables";
+@import "../utilities/variables";
 
 main {
     margin-top: 35px;
@@ -22,7 +22,7 @@ main {
     h3 {
         font-family: 'Times New Roman', Times, serif;
         font-size: 18px;
-        color: antiquewhite;
+        color: $font-color;
         background-color: black;
         padding: 4px;
         border: 1px solid rgba(85, 110, 247, 0.89);

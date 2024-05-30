@@ -1,20 +1,22 @@
 // MAIN SERVICOS
 
+@mixin card($ancho, $aling, $margin) {
+    width: $ancho;
+    align-self: $aling;
+    margin-bottom: $margin;
+}
+
 main {
     .servicios-section-container {
         display: flex;
         flex-direction: column;
 
         .div-left {
-            width: 80%;
-            align-self: flex-start;
-            margin-bottom: 20px;
+            @include card(70%, flex-start, 20px)
         }
 
         .div-right {
-            width: 80%;
-            align-self: flex-end;
-            margin-bottom: 20px;
+            @include card(70%, flex-end, 20px)
         }
     }
 }

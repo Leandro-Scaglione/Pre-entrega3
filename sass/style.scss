@@ -1,15 +1,15 @@
 // IMPORT
 
-//base
+// BASE
 
 @import "../sass/base/reset";
 @import "../sass/base/main";
 
-// VARIABLES 
+// Variables 
 
-@import "../sass/base/variables";
+@import "../sass/utilities/variables";
 
-// layout
+// LAYOUT
 
 @import "../sass/layout/header";
 @import "../sass/layout/footer";
@@ -19,8 +19,12 @@
 @import "../sass/layout/main-contacto";
 @import "../sass/layout/main-servicios";
 
+// UTILITIES
+
 // Media
 
-@import "../sass/layout/media768";
+@import "../sass/media-queries/media768";
 
+// Fonts
 
+@import "../sass/utilities/fonts";
